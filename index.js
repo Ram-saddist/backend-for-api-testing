@@ -1,6 +1,6 @@
 const express =require("express")
 const app= express();
-const port=2008
+const port=process.env.PORT|| 2008
 const cors =require("cors")
 const bodyParser=require("body-parser")
 const mongoose=require("mongoose")
